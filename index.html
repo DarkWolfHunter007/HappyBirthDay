@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="img/icon.png" rel=icon>
+    <link href=img/icon.png rel=apple-touch-icon>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <main>
+        <section class="glass">
+
+            <div class="outer-container">
+                <div class="status">
+                    <img id="gif" src="/img/cute-right.gif" alt="">
+                    <h1>Happy Birthday</h1>
+                    <img id="gif" src="/img/panda-left.gif" alt="">
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <img id="gif" src="/img/cake-right.gif" alt="">
+                        <form id="birthdayForm" onsubmit="saveMessage(event)">
+                            <label for="name">Name:</label><br>
+                            <input type="text" id="name" name="name" required><br>
+                            <label for="message">Birthday Message:</label><br>
+                            <textarea id="message" name="message" rows="4" required></textarea><br>
+                            <button type="submit">Send Wishes</button>
+                        </form>
+                        <img id="gif" src="/img/cake-left.gif" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+
+</body>
+<script src="/script.js"></script>
+
+</html>
